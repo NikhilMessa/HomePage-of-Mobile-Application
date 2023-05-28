@@ -1,0 +1,18 @@
+body {
+  background-color: #ceebf5;
+}
+.app {
+  position: relative;
+}
+
+.logo-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.logo-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}

@@ -1,0 +1,28 @@
+.icon-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    padding-bottom: 2px;
+    background-color: white;
+    padding-right: 5px;
+    border-style:solid white;
+    margin:5px;
+    border-radius: 8px;
+
+  }
+  
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+
+  }
+  
+  .grid-item span {
+    margin-top: 10px;
+  }
+  

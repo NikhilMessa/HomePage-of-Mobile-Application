@@ -1,0 +1,25 @@
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  flex-basis: calc(25% - 2px);
+  background-color: #f0f0f0;
+  border: 0px solid #ccc;
+  margin-right: 1px;
+  box-sizing: border-box;
+}
+
+.card:last-child {
+  margin-right: 1;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+.card-content {
+  color: black;
+
+}

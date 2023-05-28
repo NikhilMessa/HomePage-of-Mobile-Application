@@ -1,0 +1,10 @@
+.service{
+    background-color: #9ee1f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;  
+    border-style:solid;
+    padding-top: 5px;
+    color: royalblue;
+  }

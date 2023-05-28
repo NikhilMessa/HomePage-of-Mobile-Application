@@ -1,0 +1,100 @@
+/* navbar.css */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  z-index: 999;
+    background-color: #82f7f7;
+  }
+  
+  .navbar__logo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: -2px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+  }
+  
+  .navbar__search {
+    display: flex;
+    align-items: center;
+    margin-right: 9px;
+  }
+  
+  .navbar__search input[type="text"] {
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 8px;
+  }
+  
+  .navbar__search button.search-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .navbar__search button.search-button:hover {
+    background-color: #90d0e6;
+  }
+
+  .icon-container {
+    display: flex;
+    gap: 10px; /* Adjust the value as needed */
+  }
+
+  .logo {
+    width: 28px; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    padding-right: 5px;
+
+  }
+
+  .logo-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding-bottom: 25px;
+  }
+  
+  
+  .search-container {
+    padding: 10px 16px; /* Adjust the padding to increase the size */
+  font-size: 16px; /* Adjust the font size to increase the size */
+
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 300px; /* Adjust the width to increase the size */
+  }
+  
+  @media (max-width: 768px) {
+    .logo-container,
+    .search-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .logo {
+      margin-bottom: 10px;
+    }
+  }
+
+  .banner {
+    /* Other CSS properties */
+    text-align: center;
+  }
+  
+  .banner img {
+    max-width: 100%;
+    height: auto;
+  }
+        

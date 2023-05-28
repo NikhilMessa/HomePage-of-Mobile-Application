@@ -1,0 +1,11 @@
+.Provide{
+    background-color: #9ee1f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;  
+    border-style:solid;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    color: royalblue;
+  }

@@ -1,0 +1,11 @@
+.service{
+    background-color: #14b4e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;  
+    border-style:solid;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    color: rgb(65, 225, 212);
+  }
